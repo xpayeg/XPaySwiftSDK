@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XPaySwiftSDK_Example' do
+  pod 'XPaySwiftSDK', :path => '../'
+
+  target 'XPaySwiftSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - XPaySwiftSDK (0.1.0)
+
+DEPENDENCIES:
+  - XPaySwiftSDK (from `../`)
+
+EXTERNAL SOURCES:
+  XPaySwiftSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XPaySwiftSDK: ee78824fe9b0f792581d885aed6545dfe299e7c7
+
+PODFILE CHECKSUM: 8d2f1283552b42ca245f734b663bf3a956b7c366
+
+COCOAPODS: 1.15.2

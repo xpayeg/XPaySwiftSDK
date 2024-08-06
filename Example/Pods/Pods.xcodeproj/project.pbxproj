@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092E59725B7A38972A0BFB32734981A3 /* Pods-XPaySwiftSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CF62660A2A98429C7C469A536B7D0 /* Pods-XPaySwiftSDK_Example-dummy.m */; };
+		12C57801A50D1374DD05C244569F810F /* XPaySwiftSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F9DE004665D8D5DF2E9E1C44469CAB /* XPaySwiftSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		329F8655FEAFAAB1928A02F5EBE69265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5458084969D25526D5D0D22E7832E8C8 /* Pods-XPaySwiftSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7E2782D81AF78F3CA40EE929DE4746 /* Pods-XPaySwiftSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BFED935DECBF1CD2D18E470D14D871 /* Pods-XPaySwiftSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A8F0A404C61E544CA9819C59058BAE /* Pods-XPaySwiftSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B813BAE09503A82EF12D98D95B4F35AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C49B6940040387D0CA56C7FBB4FDC6B2 /* Pods-XPaySwiftSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35040F15D380DA029CBFFAEC6E427B39 /* Pods-XPaySwiftSDK_Tests-dummy.m */; };
+		C74D75015C983C94B0046BB5BCDB1709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EAD7F06B2E03ADE95781704E99EEA08E /* XPaySwiftSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F9632F2F81D9CFA46EC7A6BCA359A2 /* XPaySwiftSDK-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D22DEAC2CB6D5BBC63D27A55D1AD868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0FFBDB99CB4406D0FD08AB2739BF372;
+			remoteInfo = XPaySwiftSDK;
+		};
+		C2B5C325C106786EDFC704F39656349D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FADEC414E844C3ED0424A8E5292DEC0;
+			remoteInfo = "Pods-XPaySwiftSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0159816FE2EC129A8705D8258ECB7605 /* Pods-XPaySwiftSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPaySwiftSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		03F9632F2F81D9CFA46EC7A6BCA359A2 /* XPaySwiftSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPaySwiftSDK-dummy.m"; sourceTree = "<group>"; };
+		0FF9532E7659FA7ECDBB8FE795CC1A46 /* XPaySwiftSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPaySwiftSDK.debug.xcconfig; sourceTree = "<group>"; };
+		1B83EE8EF6CFF75758BC1557314175B2 /* Pods-XPaySwiftSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XPaySwiftSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E46BA129BA8BC44E5C2213F7F798BE4 /* XPaySwiftSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPaySwiftSDK.modulemap; sourceTree = "<group>"; };
+		2EAD4010A1629C1E9069063900BEE24A /* Pods-XPaySwiftSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XPaySwiftSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35040F15D380DA029CBFFAEC6E427B39 /* Pods-XPaySwiftSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPaySwiftSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		42F9DE004665D8D5DF2E9E1C44469CAB /* XPaySwiftSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPaySwiftSDK-umbrella.h"; sourceTree = "<group>"; };
+		4814206621BA372525DB612154223574 /* XPaySwiftSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPaySwiftSDK.release.xcconfig; sourceTree = "<group>"; };
+		499C6261F889242C89E3E7C32EB6EF95 /* Pods-XPaySwiftSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XPaySwiftSDK_Example"; path = Pods_XPaySwiftSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F05A499402AC98ABBC3E72E7D7457FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		62AEEED2245B8D3D9EF9234698AFF5C7 /* XPaySwiftSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XPaySwiftSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		7021DFCBA8F4B24B166FA399575D1C46 /* XPaySwiftSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XPaySwiftSDK; path = XPaySwiftSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		716CF62660A2A98429C7C469A536B7D0 /* Pods-XPaySwiftSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPaySwiftSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		71A8F0A404C61E544CA9819C59058BAE /* Pods-XPaySwiftSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPaySwiftSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8E3E01CCEB429EB8CAA5B899FD9E60B6 /* Pods-XPaySwiftSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPaySwiftSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E7E2782D81AF78F3CA40EE929DE4746 /* Pods-XPaySwiftSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPaySwiftSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8FEB9CFD6F4595C8B3CE660E81B30FE1 /* Pods-XPaySwiftSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPaySwiftSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		94701FE6104651CF7C37BBB53FB68104 /* Pods-XPaySwiftSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPaySwiftSDK_Example.modulemap"; sourceTree = "<group>"; };
+		96D59C1190E03D4390245619F7E19BD9 /* Pods-XPaySwiftSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPaySwiftSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A98D9EDB1772A4D343E5408020A37EFB /* XPaySwiftSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPaySwiftSDK-prefix.pch"; sourceTree = "<group>"; };
+		B3D0175FCF4C59D42782B7189D7786FF /* XPaySwiftSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XPaySwiftSDK-Info.plist"; sourceTree = "<group>"; };
+		BFE24C667F9E7BA4BEC10664AE55BE81 /* Pods-XPaySwiftSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPaySwiftSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C1A6F46C92BEFA376E46BFB4D760408A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C96B5C43CF4FF6864C000B99142795D1 /* Pods-XPaySwiftSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPaySwiftSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		CE7CF2ECD51F22177912403BE0BE78CE /* Pods-XPaySwiftSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPaySwiftSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0CD73BCCF618A5DDBF681110F657DEA /* Pods-XPaySwiftSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPaySwiftSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F5AA70B31D678F02710A45D750D658 /* Pods-XPaySwiftSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XPaySwiftSDK_Tests"; path = Pods_XPaySwiftSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3344AC5DF9FAAB2DA7B0B8B3B912616 /* Pods-XPaySwiftSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XPaySwiftSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D6286A5D60BE280223B46F2BCCBD5E3A /* Pods-XPaySwiftSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPaySwiftSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA34E47BF9854667C481D46D1D2EFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B813BAE09503A82EF12D98D95B4F35AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED0BFC2AD6C7D213711E5FF617063F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74D75015C983C94B0046BB5BCDB1709 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2970E48BE08693576C21CE1786ABAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329F8655FEAFAAB1928A02F5EBE69265 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA3C43D5C56E8CB1F82C71D477A5249 /* Pods-XPaySwiftSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				94701FE6104651CF7C37BBB53FB68104 /* Pods-XPaySwiftSDK_Example.modulemap */,
+				1B83EE8EF6CFF75758BC1557314175B2 /* Pods-XPaySwiftSDK_Example-acknowledgements.markdown */,
+				CE7CF2ECD51F22177912403BE0BE78CE /* Pods-XPaySwiftSDK_Example-acknowledgements.plist */,
+				716CF62660A2A98429C7C469A536B7D0 /* Pods-XPaySwiftSDK_Example-dummy.m */,
+				D3344AC5DF9FAAB2DA7B0B8B3B912616 /* Pods-XPaySwiftSDK_Example-frameworks.sh */,
+				C96B5C43CF4FF6864C000B99142795D1 /* Pods-XPaySwiftSDK_Example-Info.plist */,
+				71A8F0A404C61E544CA9819C59058BAE /* Pods-XPaySwiftSDK_Example-umbrella.h */,
+				0159816FE2EC129A8705D8258ECB7605 /* Pods-XPaySwiftSDK_Example.debug.xcconfig */,
+				D6286A5D60BE280223B46F2BCCBD5E3A /* Pods-XPaySwiftSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-XPaySwiftSDK_Example";
+			path = "Target Support Files/Pods-XPaySwiftSDK_Example";
+			sourceTree = "<group>";
+		};
+		4B65822FD399F7B72F2182D3E64EBF28 /* Pods-XPaySwiftSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB9CFD6F4595C8B3CE660E81B30FE1 /* Pods-XPaySwiftSDK_Tests.modulemap */,
+				2EAD4010A1629C1E9069063900BEE24A /* Pods-XPaySwiftSDK_Tests-acknowledgements.markdown */,
+				8E3E01CCEB429EB8CAA5B899FD9E60B6 /* Pods-XPaySwiftSDK_Tests-acknowledgements.plist */,
+				35040F15D380DA029CBFFAEC6E427B39 /* Pods-XPaySwiftSDK_Tests-dummy.m */,
+				96D59C1190E03D4390245619F7E19BD9 /* Pods-XPaySwiftSDK_Tests-Info.plist */,
+				8E7E2782D81AF78F3CA40EE929DE4746 /* Pods-XPaySwiftSDK_Tests-umbrella.h */,
+				D0CD73BCCF618A5DDBF681110F657DEA /* Pods-XPaySwiftSDK_Tests.debug.xcconfig */,
+				BFE24C667F9E7BA4BEC10664AE55BE81 /* Pods-XPaySwiftSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-XPaySwiftSDK_Tests";
+			path = "Target Support Files/Pods-XPaySwiftSDK_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62C257AEC0109D17AF1B1E303B03D214 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9C4AA8EFA884539EE0AFE7AF87CFFB0 /* XPaySwiftSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		674BBCBF68A3BD42EEC03795BC7A29B3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F05A499402AC98ABBC3E72E7D7457FB /* LICENSE */,
+				C1A6F46C92BEFA376E46BFB4D760408A /* README.md */,
+				62AEEED2245B8D3D9EF9234698AFF5C7 /* XPaySwiftSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B0B057EFA973B787B51A84994D2C8EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499C6261F889242C89E3E7C32EB6EF95 /* Pods-XPaySwiftSDK_Example */,
+				D2F5AA70B31D678F02710A45D750D658 /* Pods-XPaySwiftSDK_Tests */,
+				7021DFCBA8F4B24B166FA399575D1C46 /* XPaySwiftSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53B3966252D2B5D2E6E19318339E7D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3C43D5C56E8CB1F82C71D477A5249 /* Pods-XPaySwiftSDK_Example */,
+				4B65822FD399F7B72F2182D3E64EBF28 /* Pods-XPaySwiftSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1D301264026C598CEEB9036F5A07123 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E46BA129BA8BC44E5C2213F7F798BE4 /* XPaySwiftSDK.modulemap */,
+				03F9632F2F81D9CFA46EC7A6BCA359A2 /* XPaySwiftSDK-dummy.m */,
+				B3D0175FCF4C59D42782B7189D7786FF /* XPaySwiftSDK-Info.plist */,
+				A98D9EDB1772A4D343E5408020A37EFB /* XPaySwiftSDK-prefix.pch */,
+				42F9DE004665D8D5DF2E9E1C44469CAB /* XPaySwiftSDK-umbrella.h */,
+				0FF9532E7659FA7ECDBB8FE795CC1A46 /* XPaySwiftSDK.debug.xcconfig */,
+				4814206621BA372525DB612154223574 /* XPaySwiftSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XPaySwiftSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				62C257AEC0109D17AF1B1E303B03D214 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7B0B057EFA973B787B51A84994D2C8EE /* Products */,
+				A53B3966252D2B5D2E6E19318339E7D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9C4AA8EFA884539EE0AFE7AF87CFFB0 /* XPaySwiftSDK */ = {
+			isa = PBXGroup;
+			children = (
+				674BBCBF68A3BD42EEC03795BC7A29B3 /* Pod */,
+				C1D301264026C598CEEB9036F5A07123 /* Support Files */,
+			);
+			name = XPaySwiftSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0608DBD50EBD117094A5C6169CD487E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFED935DECBF1CD2D18E470D14D871 /* Pods-XPaySwiftSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C6E70D809F7790E012139FEDEB6E9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C57801A50D1374DD05C244569F810F /* XPaySwiftSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF971B0C8B5715332BC5F9CBBB1BB28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5458084969D25526D5D0D22E7832E8C8 /* Pods-XPaySwiftSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B2AD304AD49448643278ACB5D096BAF /* Pods-XPaySwiftSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA722321411CCEBE6B3FDE477BD2935 /* Build configuration list for PBXNativeTarget "Pods-XPaySwiftSDK_Tests" */;
+			buildPhases = (
+				CEF971B0C8B5715332BC5F9CBBB1BB28 /* Headers */,
+				0DDCAB76C88C0241F32B8622A065AD44 /* Sources */,
+				5ED0BFC2AD6C7D213711E5FF617063F8 /* Frameworks */,
+				8FA7DDEF0341CE31338A8A90038DB7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250ED57AB2E1CD5EB147168DC03E9158 /* PBXTargetDependency */,
+			);
+			name = "Pods-XPaySwiftSDK_Tests";
+			productName = Pods_XPaySwiftSDK_Tests;
+			productReference = D2F5AA70B31D678F02710A45D750D658 /* Pods-XPaySwiftSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FADEC414E844C3ED0424A8E5292DEC0 /* Pods-XPaySwiftSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7D2908AF70CF0D83FBCE20C0B90C85 /* Build configuration list for PBXNativeTarget "Pods-XPaySwiftSDK_Example" */;
+			buildPhases = (
+				0608DBD50EBD117094A5C6169CD487E4 /* Headers */,
+				144445DA5AF98E50634FE2203992698E /* Sources */,
+				2AA34E47BF9854667C481D46D1D2EFA5 /* Frameworks */,
+				B946CEFFB8490EB8A515994F3F5D2283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE9FCECC86D3B0400EEB7665E31A90C /* PBXTargetDependency */,
+			);
+			name = "Pods-XPaySwiftSDK_Example";
+			productName = Pods_XPaySwiftSDK_Example;
+			productReference = 499C6261F889242C89E3E7C32EB6EF95 /* Pods-XPaySwiftSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0FFBDB99CB4406D0FD08AB2739BF372 /* XPaySwiftSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BE903A98CA7007070D17728C94197D /* Build configuration list for PBXNativeTarget "XPaySwiftSDK" */;
+			buildPhases = (
+				A1C6E70D809F7790E012139FEDEB6E9B /* Headers */,
+				50CAB5AF526BC1C70E785754F04FDACA /* Sources */,
+				F2970E48BE08693576C21CE1786ABAC7 /* Frameworks */,
+				338424940F423FB8272817725E8917B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPaySwiftSDK;
+			productName = XPaySwiftSDK;
+			productReference = 7021DFCBA8F4B24B166FA399575D1C46 /* XPaySwiftSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7B0B057EFA973B787B51A84994D2C8EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FADEC414E844C3ED0424A8E5292DEC0 /* Pods-XPaySwiftSDK_Example */,
+				0B2AD304AD49448643278ACB5D096BAF /* Pods-XPaySwiftSDK_Tests */,
+				F0FFBDB99CB4406D0FD08AB2739BF372 /* XPaySwiftSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		338424940F423FB8272817725E8917B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA7DDEF0341CE31338A8A90038DB7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B946CEFFB8490EB8A515994F3F5D2283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DDCAB76C88C0241F32B8622A065AD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49B6940040387D0CA56C7FBB4FDC6B2 /* Pods-XPaySwiftSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144445DA5AF98E50634FE2203992698E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092E59725B7A38972A0BFB32734981A3 /* Pods-XPaySwiftSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CAB5AF526BC1C70E785754F04FDACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD7F06B2E03ADE95781704E99EEA08E /* XPaySwiftSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250ED57AB2E1CD5EB147168DC03E9158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XPaySwiftSDK_Example";
+			target = 5FADEC414E844C3ED0424A8E5292DEC0 /* Pods-XPaySwiftSDK_Example */;
+			targetProxy = C2B5C325C106786EDFC704F39656349D /* PBXContainerItemProxy */;
+		};
+		EDE9FCECC86D3B0400EEB7665E31A90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XPaySwiftSDK;
+			target = F0FFBDB99CB4406D0FD08AB2739BF372 /* XPaySwiftSDK */;
+			targetProxy = 3D22DEAC2CB6D5BBC63D27A55D1AD868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17C8959CFF1C74EF6E2B8E9327C1DD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE24C667F9E7BA4BEC10664AE55BE81 /* Pods-XPaySwiftSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XPaySwiftSDK_Tests/Pods-XPaySwiftSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XPaySwiftSDK_Tests/Pods-XPaySwiftSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CBBF57E56886857B4FC3831C76E59DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0CD73BCCF618A5DDBF681110F657DEA /* Pods-XPaySwiftSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XPaySwiftSDK_Tests/Pods-XPaySwiftSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XPaySwiftSDK_Tests/Pods-XPaySwiftSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67ACC1370BBD82BBD4B62B72D291CAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF9532E7659FA7ECDBB8FE795CC1A46 /* XPaySwiftSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XPaySwiftSDK/XPaySwiftSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XPaySwiftSDK/XPaySwiftSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XPaySwiftSDK/XPaySwiftSDK.modulemap";
+				PRODUCT_MODULE_NAME = XPaySwiftSDK;
+				PRODUCT_NAME = XPaySwiftSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A5DCB4B7261A4CCEB5A4F8C507D0690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0159816FE2EC129A8705D8258ECB7605 /* Pods-XPaySwiftSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XPaySwiftSDK_Example/Pods-XPaySwiftSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XPaySwiftSDK_Example/Pods-XPaySwiftSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3CFFDF2987A54754D7DB0DE8C43FEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4814206621BA372525DB612154223574 /* XPaySwiftSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XPaySwiftSDK/XPaySwiftSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XPaySwiftSDK/XPaySwiftSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XPaySwiftSDK/XPaySwiftSDK.modulemap";
+				PRODUCT_MODULE_NAME = XPaySwiftSDK;
+				PRODUCT_NAME = XPaySwiftSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D2F1868EA02F27BFA8880D4654E123D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6286A5D60BE280223B46F2BCCBD5E3A /* Pods-XPaySwiftSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XPaySwiftSDK_Example/Pods-XPaySwiftSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XPaySwiftSDK_Example/Pods-XPaySwiftSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07BE903A98CA7007070D17728C94197D /* Build configuration list for PBXNativeTarget "XPaySwiftSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ACC1370BBD82BBD4B62B72D291CAF4 /* Debug */,
+				A3CFFDF2987A54754D7DB0DE8C43FEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7D2908AF70CF0D83FBCE20C0B90C85 /* Build configuration list for PBXNativeTarget "Pods-XPaySwiftSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5DCB4B7261A4CCEB5A4F8C507D0690 /* Debug */,
+				D2F1868EA02F27BFA8880D4654E123D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA722321411CCEBE6B3FDE477BD2935 /* Build configuration list for PBXNativeTarget "Pods-XPaySwiftSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBBF57E56886857B4FC3831C76E59DC /* Debug */,
+				17C8959CFF1C74EF6E2B8E9327C1DD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

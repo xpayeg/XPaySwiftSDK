@@ -1,0 +1,22 @@
+{
+  "name": "XPaySwiftSDK",
+  "version": "0.1.0",
+  "summary": "A short description of XPaySwiftSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AdelRedaa97/XPaySwiftSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AdelRedaa97": "adelredaa97@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AdelRedaa97/XPaySwiftSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XPaySwiftSDK/Classes/**/*"
+}

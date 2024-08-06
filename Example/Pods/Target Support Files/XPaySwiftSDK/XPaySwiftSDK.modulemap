@@ -1,0 +1,6 @@
+framework module XPaySwiftSDK {
+  umbrella header "XPaySwiftSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
