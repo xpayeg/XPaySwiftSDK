@@ -83,4 +83,4 @@ class ViewController: UIViewController {
 
 ## Demo
 
-https://github.com/arXpay/XPay-iOS-Demo
+[https://github.com/arXpay/XPay-iOS-Demo](https://github.com/xpayeg/XPay-iOS-Demo)
