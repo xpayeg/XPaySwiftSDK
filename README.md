@@ -6,7 +6,7 @@ XPaySwiftSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'XPaySwiftSDK', :git => 'https://github.com/arXpay/XPaySwiftSDK.git'
+pod 'XPaySwiftSDK', :git => 'https://github.com/xpayeg/XPaySwiftSDK.git'
 ```
 
 ## Usage
@@ -25,11 +25,11 @@ class ViewController: UIViewController {
 
       // => Add this
       xpayUtils = XPayUtils(
-        from: self,                      // ViewController instance
+        from: self,                          // ViewController instance
         sdkMode: XPaySDKMode.DEVELOPMENT,    // XPaySDKMode.LIVE for production mode
-        apiKey: "API_KEY",               // Your api key, Create an api key => https://xpayeg.github.io/docs/api-key
-        apiPaymentId: 1,                 // Your api payment id, Create an api payment id => https://xpayeg.github.io/docs/api-payments
-        communityId: "COMMUNITY_ID"      // Your community id, Get your community id => https://xpayeg.github.io/docs/community-id
+        apiKey: "API_KEY",                   // Your api key, Create an api key => https://xpayeg.github.io/docs/api-key
+        apiPaymentId: 1,                     // Your api payment id, Create an api payment id => https://xpayeg.github.io/docs/api-payments
+        communityId: "COMMUNITY_ID"          // Your community id, Get your community id => https://xpayeg.github.io/docs/community-id
       )
 
     }
